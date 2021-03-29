@@ -30,7 +30,7 @@ public class AddStudent extends AppCompatActivity {
 
     String branchSelected, semesterSelected;
 
-    private String[] branchString = new String[] { "BIT","BCS"};
+    private String[] branchString = new String[] { "BCA","CSIT"};
     private String[] semesterString = new String[] {"1st","2nd","3rd","4th","5th","6th"};
 
     DatabaseHelper dbHelper;
