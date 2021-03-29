@@ -31,10 +31,10 @@ public class StudentTotalAttendance extends AppCompatActivity {
     Spinner spinnerdepartment,spinnersemester,spinnersubject;
     Button submit;
 
-    String branch = "cse";
+    String branch = "cse";S
     String year = "SE";
     String subject = "SC";
-    private String[] branchString = new String[] { "BIT","BCS"};
+    private String[] branchString = new String[] { "BCA","CSIT"};
     private String[] semesterString = new String[] {"1st","2nd","3rd","4th","5th","6th"};
     private String[] subjectString = new String[] {"FA","C","C++","database","JAVA","RDBMS","AI","RTS"};
     DatabaseHelper databaseHelper;
